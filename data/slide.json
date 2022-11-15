@@ -1,13 +1,13 @@
 {
   "swiper1": {
     "kind": "url",
-    "imgUrl": "http://www.news.ynu.edu.cn/__local/0/EB/80/2FBD1FA96C396C41CADCC1C1F91_3308D158_2E9F1.jpg",
+    "imgUrl": "https://www.news.ynu.edu.cn/__local/0/EB/80/2FBD1FA96C396C41CADCC1C1F91_3308D158_2E9F1.jpg",
     "title": "速领！云大人专属29元校园卡",
     "link":"https://mp.weixin.qq.com/s/bn7cMdKXeDyk0SBYPRy_9g"
   },
   "swiper2": {
     "kind": "url",
-    "imgUrl": "http://www.news.ynu.edu.cn/__local/0/29/DC/F7B6D16E08A8AF251FAEB721138_2B767D72_2D8BE.jpg",
+    "imgUrl": "https://www.news.ynu.edu.cn/__local/0/29/DC/F7B6D16E08A8AF251FAEB721138_2B767D72_2D8BE.jpg",
     "title": "您的套餐已到期！小移来帮您续命！",
     "link":"https://mp.weixin.qq.com/s/bn7cMdKXeDyk0SBYPRy_9g"
   }
