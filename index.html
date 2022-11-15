@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width initial-scale=1.0,maximum-scale=1.0'>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="../style/font-awesome/css/font-awesome.min.css">
+    <script src="script/questionAndAnswer.js" defer></script>
+    <script src="script/getQuestion_usual.js" defer></script>
+    <script src="script/search.js" defer></script>
+    <title>云大移动校园网</title>
+</head>
+<body onload="getQuestionAndAnswer('slide','First')">
+<div id="searchBar" class="commonDiv">
+    <div class="iconSearchDiv">
+        <img src="../img/imgForSearchPageBack.jpeg" class="iconSearch" alt="">
+    </div>
+    <div class="inputDiv">
+        <input id="myInput" onkeyup="search()" class="myInput" placeholder="输入文字自动搜索">
+    </div>
+    <div class="clearButtonDiv">
+        <button type="button" class="clearButton" value="buttonClear" onclick="clearInput()" style="width: 100%">
+            清空
+        </button>
+    </div>
+</div>
+<div class="positionDiv"></div>
+<div id="swiper">
+    <ul id="swiperUlContent" class="swiper_ul"></ul>
+</div>
+<div id="doorAndTollAndOther">
+    <div id="zifei" class="commonDiv">
+        <div class="title TaocanDiv">套餐相关</div>
+        <div class="li_tipDiv">
+            <ul class="li_ulDiv">
+                <li class="li_tip"><a href="tel:15798851915">客服1:15798851915</a></li>
+                <li class="li_tip"><a href="tel:15798853308">客服2:15798853308</a></li>
+                <li class="li_tip"><a href="tel:18468009562">客服3:18468009562</a></li>
+            </ul>
+        </div>
+        <div class="gridMobile">
+            <div class="box" id="id" onclick="displayItem('zifei')">
+                <div class="serverIconDiv"><img src="img/taocan.png" alt="资费" class="serveIconMobile"></div>
+                <p class="linkText">资费介绍</p>
+            </div>
+            <div class="box" id="internet" onclick="displayItem('internet')">
+                <div class="serverIconDiv"><img src="img/net.png" alt="" class="serveIconMobile"></div>
+                <p class="linkText">上网认证</p>
+            </div>
+            <div class="box" id="recharge" onclick="displayItem('recharge')">
+                <div class="serverIconDiv"><img src="img/recharge.png" alt="net" class="serveIconMobile"></div>
+                <p class="linkText">缴费充值</p>
+            </div>
+            <div class="box" id="refund" onclick="displayItem('refund')">
+                <div class="serverIconDiv"><img src="img/refund.png" alt="email" class="serveIconMobile"></div>
+                <p class="linkText">改套退费</p>
+            </div>
+        </div>
+    </div>
+    <div id="question" class="commonDiv commonBack backPosition-85">
+        <div class="title">问题帮助</div>
+        <div class="gridMobile">
+            <div class="box" id="usual" onclick="show('usual')">
+                <div class="serverIconDiv"><img src="img/usual.png" alt="" class="serveIconMobile"></div>
+                <p class="linkText">常见</p>
+            </div>
+            <div class="box" id="type" onclick="show('type')">
+                <div class="serverIconDiv"><img src="img/type.png" alt="" class="serveIconMobile"></div>
+                <p class="linkText">分类型</p>
+            </div>
+            <div class="box" id="article" onclick="show('article')">
+                <div class="serverIconDiv"><img src="img/Aritcle.png" alt="" class="serveIconMobile"></div>
+                <p class="linkText">小技巧</p>
+            </div>
+<!--            <div class="box" id="" onclick="">-->
+<!--                <div class="serveIcon_space"></div>-->
+<!--                <p class="linkText"></p>-->
+<!--            </div>-->
+        </div>
+        <div id="display_question" class="questionDiv"></div>
+        <div id="display_answer" class="questionDiv"></div>
+        <div id="question_close"></div>
+    </div>
+    <div id="tool" class="commonDiv commonBack backPosition-45">
+        <div class="title">工 具</div>
+        <div class="gridMobile">
+            <!--                <div class="box">-->
+            <!--                    <div><a href="../netSpeed"><img src="img/netSpeed_in.png" alt="" class="serveIconMobile"></a></div>-->
+            <!--                    <p class="linkText">内网专测</p>-->
+            <!--                </div>-->
+            <div class="box">
+                <div class="serverIconDiv"><a href="https://www.speedtest.cn/"><img src="img/netSpeed_out.png" alt="" class="serveIconMobile"></a>
+                </div>
+                <p class="linkText">测网速</p>
+            </div>
+            <div class="box" id="problem" onclick="displayItem('problem')">
+                <div class="serverIconDiv"><img src="img/pro.png" alt="problem" class="serveIconMobile"></div>
+                <p class="linkText">故障报修</p>
+            </div>
+            <div class="box" id="fankui" onclick="displayItem('fankui')">
+                <div class="serverIconDiv"><img src="img/strategy.png" class="serveIconMobile"></div>
+                <p class="linkText">意见反馈</p>
+            </div>
+            <div class="box" id="wechat" onclick="displayItem('wechat')">
+                <div class="serverIconDiv"><img src="img/wechat.png" class="serveIconMobile"></div>
+                <p class="linkText">公众号</p>
+            </div>
+        </div>
+    </div>
+    <div id="serve_display"></div>
+    <div id="itc" ></div>
+
+    <footer id="footer">
+        <span>CopyRight&copy 信息技术中心运维部 | yu'nan </span><br>
+    </footer>
+</div>
+<div id="resultDivAll">
+    <div class="resultCard serviceResultCard">
+        <ul id="service" class="result"></ul>
+        <div id="serviceNum"></div>
+    </div>
+    <div class="resultCard waiqinResultCard">
+        <ul id="waiqin" class="result"></ul>
+        <div id="waiqinNum"></div>
+    </div>
+    <div class="resultCard jiaochengResultCard">
+        <ul id="jiaocheng" class="result"></ul>
+        <div id="jiaochengNum"></div>
+    </div>
+    <div class="resultCard netproResultCard">
+        <ul id="netpro" class="result"></ul>
+        <div id="netproNum"></div>
+    </div>
+    <div class="resultCard filesResultCard">
+        <ul id="files" class="result"></ul>
+        <div id="filesNum"></div>
+    </div>
+    <div class="resultCard telResultCard">
+        <ul id="tel" class="result"></ul>
+        <div id="telNum"></div>
+    </div>
+    <div class="resultCard">
+        <ul id="noResult" class="result noResult"></ul>
+    </div>
+</div>
+</body>
+</html>

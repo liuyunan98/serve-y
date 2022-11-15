@@ -1,0 +1,14 @@
+{
+  "swiper1": {
+    "kind": "url",
+    "imgUrl": "../img/topimg_tongyi.jpg",
+    "title": "速领！云大人专属29元校园卡",
+    "link":"https://mp.weixin.qq.com/s/bn7cMdKXeDyk0SBYPRy_9g"
+  },
+  "swiper2": {
+    "kind": "url",
+    "imgUrl": "../img/topimg_onecard.jpg",
+    "title": "您的套餐已到期！小移来帮您续命！",
+    "link":"https://mp.weixin.qq.com/s/bn7cMdKXeDyk0SBYPRy_9g"
+  }
+}

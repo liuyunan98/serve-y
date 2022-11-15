@@ -1,0 +1,32 @@
+{
+  "q1": {
+    "question": "已经缴费但还是无法上网",
+    "kind": "tip",
+    "answer": "有可能套餐暂未生效，需联系客服处理，将套餐设置为立即生效。"
+  },
+  "q2": {
+    "question": "校园网频繁掉线怎么办",
+    "kind": "url",
+    "answer": "https://app.yinxiang.com/fx/fe627115-2816-4c38-8400-fe260751d259"
+  },
+  "q3": {
+    "question": "认证页弹不出来怎么办",
+    "kind": "url",
+    "answer": "https://app.yinxiang.com/fx/9e494d5f-db6c-4bc4-84ad-7e65d5bae79d"
+  },
+  "q4": {
+    "question": "认证成功后但还是无法上网",
+    "kind": "url",
+    "answer": "https://app.yinxiang.com/fx/8844dc90-d164-4264-9364-aac14bab3358"
+  },
+  "q5": {
+    "question": "为什么电脑睡眠后网络掉线",
+    "kind": "url",
+    "answer": "https://app.yinxiang.com/fx/9bebcc3a-817f-4072-9977-443900500d2e"
+  },
+  "q6": {
+    "question": "无感知服务的作用",
+    "kind": "url",
+    "answer": "https://app.yinxiang.com/fx/30a0e0c6-33ae-45cc-b55b-e7c38e0065b8"
+  }
+}
