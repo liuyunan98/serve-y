@@ -121,7 +121,7 @@ function killServeDoor() {
 }
 
 function displayServeDoor() {
-    document.getElementById("swiper").style.height = "150px";
+    document.getElementById("swiper").style.height = "120px";
     document.getElementById("swiper").style.opacity = "1.0";
     document.getElementById("doorAndTollAndOther").style.display = "block";
     document.getElementById("doorAndTollAndOther").style.height = "auto";
