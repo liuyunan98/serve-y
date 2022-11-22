@@ -135,7 +135,7 @@ function judgeDisplay(item) {
                 '               <div class="liForItemShow" onclick="alert(tip_onecardrecharge)">一卡通余额充值流程</div>\n' +
                 '               <div class="liForItemShow"><a href="https:selfsrv.ynu.edu.cn">自服务缴费入口</a></div>' +
                 '           </div>\n' +
-                '           <div class="liForItemShowImgDiv"><img src="../img/onecrad_miniPro.png" alt="" class="liForItemShow_img">\n' +
+                '           <div class="liForItemShowImgDiv"><img src="img/onecrad_miniPro.png" alt="" class="liForItemShow_img">\n' +
                 '               <div class="li_info">长按图片识别小程序码</div>' +
                 '           </div>\n' +
                 '           <p class="ulForItemShow_info">\n' +
