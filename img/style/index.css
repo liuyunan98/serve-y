@@ -216,7 +216,7 @@ button {
     text-align: left;
     line-height: 34px;
     background-color: unset;
-    background-image: url("../img/search.png");
+    background-image: url("../../img/search.png");
     background-repeat: no-repeat;
     background-size: 20px;
     background-position: 6px 50%;
@@ -251,7 +251,7 @@ button {
 /*以下是搜索结果li的样式*/
 /*1.申请附件搜索结果类Li*/
 .filesResultCard {
-    background-image: url("../img/files_back.png");
+    background-image: url("../../img/files_back.png");
     background-position: right top;
     background-repeat: no-repeat;
     background-size: 150px;
@@ -263,7 +263,7 @@ button {
     list-style: none;
     padding: 15px;
     line-height: 20px;
-    background-image: url("../img/files.png");
+    background-image: url("../../img/files.png");
     background-repeat: no-repeat;
     background-size: 15px;
     background-position: 0 50%;
@@ -279,7 +279,7 @@ button {
 
 /*2.外勤服务类结果*/
 .waiqinResultCard {
-    background-image: url("../img/waiqin_back.png");
+    background-image: url("../../img/waiqin_back.png");
     background-position: right top;
     background-repeat: no-repeat;
     background-size: 150px;
@@ -291,7 +291,7 @@ button {
     list-style: none;
     padding: 15px;
     line-height: 20px;
-    background-image: url("../img/waiqin.png");
+    background-image: url("../../img/waiqin.png");
     background-repeat: no-repeat;
     background-size: 15px;
     background-position: 0 50%;
@@ -307,7 +307,7 @@ button {
 
 /*3.服务类结果li*/
 .serviceResultCard {
-    background-image: url("../img/service_back.png");
+    background-image: url("../../img/service_back.png");
     background-position: right top;
     background-repeat: no-repeat;
     background-size: 150px;
@@ -319,7 +319,7 @@ button {
     list-style: none;
     padding: 15px;
     line-height: 20px;
-    background-image: url("../img/serve.png");
+    background-image: url("../../img/serve.png");
     background-repeat: no-repeat;
     background-size: 20px;
     background-position: 0 50%;
@@ -335,7 +335,7 @@ button {
 
 /*4.网络故障类结果li*/
 .netproResultCard {
-    background-image: url("../img/netpro_back.png");
+    background-image: url("../../img/netpro_back.png");
     background-position: right top;
     background-repeat: no-repeat;
     background-size: 150px;
@@ -347,7 +347,7 @@ button {
     list-style: none;
     padding: 15px;
     line-height: 20px;
-    background-image: url("../img/netPro.png");
+    background-image: url("../../img/netPro.png");
     background-repeat: no-repeat;
     background-size: 15px;
     background-position: 0 50%;
@@ -363,7 +363,7 @@ button {
 
 /*5.业务教程类结果*/
 .jiaochengResultCard {
-    background-image: url("../img/jiaocheng_back.png");
+    background-image: url("../../img/jiaocheng_back.png");
     background-position: right top;
     background-repeat: no-repeat;
     background-size: 150px;
@@ -375,7 +375,7 @@ button {
     list-style: none;
     padding: 15px;
     line-height: 20px;
-    background-image: url("../img/jiaocheng.png");
+    background-image: url("../../img/jiaocheng.png");
     background-repeat: no-repeat;
     background-size: 15px;
     background-position: 0 50%;
@@ -391,7 +391,7 @@ button {
 
 /*6.通讯录类搜索结果li*/
 .telResultCard {
-    background-image: url("../img/tel_back.png");
+    background-image: url("../../img/tel_back.png");
     background-position: right top;
     background-repeat: no-repeat;
     background-size: 150px;
@@ -427,7 +427,7 @@ button {
 .callButton {
     line-height: 15px;
     background-color: rgba(73, 239, 110, 0.8);
-    background-image: url("../img/telButtonBack.png");
+    background-image: url("../../img/telButtonBack.png");
     background-position: 2px 50%;
     background-size: auto 15px;
     background-repeat: no-repeat;
@@ -700,7 +700,7 @@ a {
 
 /*背景图片-银杏*/
 .commonBack {
-    background-image: url("../img/topimg.png");
+    background-image: url("../../img/topimg.png");
     background-size: 50% auto;
     background-repeat: no-repeat;
 }
