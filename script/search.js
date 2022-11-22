@@ -210,7 +210,7 @@ function search() {
 
     if (fixResult() === false) {
         if (inputFilter !== "") {
-            noResultDiv.innerHTML = "<img src='../img/noResult.png' class='noResultImg'> <br>没有找到哎~ 换个词儿试试吧";
+            noResultDiv.innerHTML = "<img src='img/noResult.png' class='noResultImg'> <br>没有找到哎~ 换个词儿试试吧";
         }
     }
 }
