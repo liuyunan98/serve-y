@@ -99,12 +99,12 @@ button {
 }
 
 .swiperImgInfo {
-    font-size: small;
+    font-size: medium;
     color: white;
-    height: 20px;
-    margin-top: -20px;
-    line-height: 20px;
-    padding-left: 12px;
+    height: 24px;
+    margin-top: -24px;
+    line-height: 24px;
+    padding-left: 10px;
     border-radius: 0 0 15px 15px;
     backdrop-filter: blur(2px);
 }
@@ -1050,8 +1050,8 @@ a {
 /*收起图标*/
 .li_close {
     list-style: none;
-    padding: 10px 0;
-    color: rgba(28, 34, 255, 0.7);
+    padding: 0;
+    color: rgba(0, 170, 255, 0.9);
     text-align: center;
     animation: li_closeMove 1500ms ease-in-out infinite;
 }
