@@ -229,9 +229,9 @@ button {
 /*弹出的结果div盒子*/
 .resultCard {
     background-color: white;
-    width: 98%;
+    width: 94%;
     margin: auto;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 /*搜索结果样式*/
