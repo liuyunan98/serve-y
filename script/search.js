@@ -112,13 +112,15 @@ function autoClearResultDiv() {
 }
 
 function killServeDoor() {
+    document.getElementById('searchBar').style.borderRadius = '14px'
     document.getElementById("swiper").style.opacity = "0";
     document.getElementById("swiper").style.height = "0";
     document.getElementById("doorAndTollAndOther").style.display = "none";
 }
 
 function displayServeDoor() {
-    document.getElementById("swiper").style.height = "120px";
+    document.getElementById('searchBar').style.borderRadius = '14px 14px 0 0'
+    document.getElementById("swiper").style.height = "100px";
     document.getElementById("swiper").style.opacity = "1.0";
     document.getElementById("doorAndTollAndOther").style.display = "block";
     document.getElementById("doorAndTollAndOther").style.height = "auto";
