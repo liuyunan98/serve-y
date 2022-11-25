@@ -777,7 +777,7 @@ a {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-evenly;
-    grid-gap: 30px 20px;
+    grid-gap: 30px 18px;
     padding: 14px 4px;
 }
 
@@ -943,7 +943,7 @@ a {
 
 .linkTextInfo {
     padding: 6px 0;
-    font-size: x-small;
+    font-size: small;
     color: rgba(128, 128, 128, 0.80);
     text-align: center;
     white-space: nowrap;
