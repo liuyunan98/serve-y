@@ -85,8 +85,8 @@ function judgeDisplay(item) {
                 '       <div class="Div_ulForItemShow_title"><span class="ulForItemShow_title" onclick="closeItem(\'zifei_display\')">资费介绍</span></div>\n' +
                 '       <div class="Div_content">' +
                 '           <div class="Div_liForItemShow">' +
-                '               <div class="liForItemShow" onclick="alert(tip_startjifei)">开始计费条件</div>\n' +
-                '               <div class="liForItemShow" onclick="alert(tip_mianfei)">校内免费资源</div>' +
+                '               <div class="liForItemShow liForItemShow_tip" onclick="alert(tip_startjifei)">开始计费条件</div>\n' +
+                '               <div class="liForItemShow liForItemShow_tip" onclick="alert(tip_mianfei)">校内免费资源</div>' +
                 '           </div>\n' +
                 '           <img src="img/pic.svg" referrerpolicy="no-referrer" class="imgForShouce">' +
                 '           <p class="ulForItemShow_info">\n' +
@@ -105,13 +105,13 @@ function judgeDisplay(item) {
                 '       <div class="Div_ulForItemShow_title"><span class="ulForItemShow_title" onclick="closeItem(\'internet_display\')">认证上网</span></div>\n' +
                 '       <div class="Div_content">' +
                 '           <div class="Div_liForItemShow">' +
-                '               <div class="liForItemShow"><a href="https://app.yinxiang.com/fx/63538ac5-a479-4908-8c61-95d08b8e922d">上网方式介绍</a></div>\n' +
-                '               <div class="liForItemShow" onclick="alert(tip_netcount)">校园网账号</div>\n' +
-                '               <div class="liForItemShow" onclick="alert(tip_chushimima)">初始密码</div>\n' +
-                '               <div class="liForItemShow"><a href="http://itc.ynu.edu.cn/info/1013/1178.htm">短信找回密码</a></div>\n' +
-                '               <div class="liForItemShow"><a href="http://itc.ynu.edu.cn/info/1008/1242.htm">强密码规则</a></div>\n' +
-                '               <div class="liForItemShow"><a href="https://app.yinxiang.com/fx/cc1bcf0f-80ed-4f01-9c2b-6656ccfe6d2e">自服务修改密码</a></div>\n' +
-                '               <div class="liForItemShow"><a href="http://113.55.14.8">自服务改密入口</a></div>' +
+                '               <div class="liForItemShow liForItemShow_tip"><a href="https://app.yinxiang.com/fx/63538ac5-a479-4908-8c61-95d08b8e922d">上网方式介绍</a></div>\n' +
+                '               <div class="liForItemShow liForItemShow_tip" onclick="alert(tip_netcount)">校园网账号</div>\n' +
+                '               <div class="liForItemShow liForItemShow_tip" onclick="alert(tip_chushimima)">初始密码</div>\n' +
+                '               <div class="liForItemShow liForItemShow_link"><a href="http://itc.ynu.edu.cn/info/1013/1178.htm">短信找回密码</a></div>\n' +
+                '               <div class="liForItemShow liForItemShow_link"><a href="http://itc.ynu.edu.cn/info/1008/1242.htm">强密码规则</a></div>\n' +
+                '               <div class="liForItemShow liForItemShow_link"><a href="https://app.yinxiang.com/fx/cc1bcf0f-80ed-4f01-9c2b-6656ccfe6d2e">自服务修改密码</a></div>\n' +
+                '               <div class="liForItemShow liForItemShow_link"><a href="http://113.55.14.8">自服务改密入口</a></div>' +
                 '           </div>\n' +
                 '           <p class="ulForItemShow_info">\n' +
                 '               1.自服务修改密码需要在校园网范围内，连接校园网才可修改<br>\n' +
@@ -129,11 +129,11 @@ function judgeDisplay(item) {
                 '       <div class="Div_ulForItemShow_title"><span class="ulForItemShow_title" onclick="closeItem(\'recharge_display\')">网费充值</span></div>\n' +
                 '       <div class="Div_content">' +
                 '           <div class="Div_liForItemShow">' +
-                '               <div class="liForItemShow"><a href="https://app.yinxiang.com/fx/a84d911f-faba-424f-bcf9-63b1cfb23cf8">选套餐说明</a></div>\n' +
-                '               <div class="liForItemShow"><a href="https://app.yinxiang.com/fx/82be2f8a-2aaf-4d71-97e4-089c3ee5e69b">一卡通缴网费流程</a></div>\n' +
-                '               <div class="liForItemShow"><a href="https://app.yinxiang.com/fx/9c8e906e-a048-444f-bc5c-0e4c743fbb3a">自服务缴网费流程</a></div>\n' +
-                '               <div class="liForItemShow" onclick="alert(tip_onecardrecharge)">一卡通余额充值流程</div>\n' +
-                '               <div class="liForItemShow"><a href="https:selfsrv.ynu.edu.cn">自服务缴费入口</a></div>' +
+                '               <div class="liForItemShow liForItemShow_link"><a href="https://app.yinxiang.com/fx/a84d911f-faba-424f-bcf9-63b1cfb23cf8">选套餐说明</a></div>\n' +
+                '               <div class="liForItemShow liForItemShow_link"><a href="https://app.yinxiang.com/fx/82be2f8a-2aaf-4d71-97e4-089c3ee5e69b">一卡通缴网费流程</a></div>\n' +
+                '               <div class="liForItemShow liForItemShow_link"><a href="https://app.yinxiang.com/fx/9c8e906e-a048-444f-bc5c-0e4c743fbb3a">自服务缴网费流程</a></div>\n' +
+                '               <div class="liForItemShow liForItemShow_tip" onclick="alert(tip_onecardrecharge)">一卡通余额充值流程</div>\n' +
+                '               <div class="liForItemShow liForItemShow_link"><a href="https:selfsrv.ynu.edu.cn">自服务缴费入口</a></div>' +
                 '           </div>\n' +
                 '           <div class="liForItemShowImgDiv"><img src="img/onecrad_miniPro.png" alt="" class="liForItemShow_img">\n' +
                 '               <div class="li_info">长按图片识别小程序码</div>' +
@@ -157,9 +157,9 @@ function judgeDisplay(item) {
                 '       <div class="Div_ulForItemShow_title"><span class="ulForItemShow_title" onclick="closeItem(\'refund_display\')">改套退费</span></div>\n' +
                 '       <div class="Div_content">' +
                 '           <div class="Div_liForItemShow">' +
-                '               <div class="liForItemShow" onclick="alert(tip_tuifei)">退费规则</div>' +
-                '               <div class="liForItemShow" onclick="alert(tip_changecelue)">改套规则</div>\n' +
-                '               <div class="liForItemShow"><a href="https://u2idi114qf.jiandaoyun.com/f/60d1fe921216b70008e05e07">修改套餐入口</a></div>' +
+                '               <div class="liForItemShow liForItemShow_tip" onclick="alert(tip_tuifei)">退费规则</div>' +
+                '               <div class="liForItemShow liForItemShow_tip" onclick="alert(tip_changecelue)">改套规则</div>\n' +
+                '               <div class="liForItemShow liForItemShow_link"><a href="https://u2idi114qf.jiandaoyun.com/f/60d1fe921216b70008e05e07">修改套餐入口</a></div>' +
                 '           </div>\n' +
                 '           <p class="ulForItemShow_info">\n' +
                 '               1.修改套餐有3种方式：打电话、公众号留言、点击"修改套餐入口"填写提交等。<br>\n' +
@@ -178,8 +178,8 @@ function judgeDisplay(item) {
                 '       <div class="Div_ulForItemShow_title"><span class="ulForItemShow_title" onclick="closeItem(\'problem_display\')">故障报修</span></div>\n' +
                 '       <div class="Div_content">' +
                 '           <div class="Div_liForItemShow">' +
-                '               <div class="liForItemShow"><a href="https://u2idi114qf.jiandaoyun.com/f/5f6962cef444cd00065eff3e">呈贡网络报修</a></div>\n' +
-                '               <div class="liForItemShow"><a href="https://u2idi114qf.jiandaoyun.com/f/5f684d75a3a12300065e968b">东陆网络报修</a></div>' +
+                '               <div class="liForItemShow liForItemShow_link"><a href="https://u2idi114qf.jiandaoyun.com/f/5f6962cef444cd00065eff3e">呈贡网络报修</a></div>\n' +
+                '               <div class="liForItemShow liForItemShow_link"><a href="https://u2idi114qf.jiandaoyun.com/f/5f684d75a3a12300065e968b">东陆网络报修</a></div>' +
                 '           </div>\n' +
                 '           <p class="ulForItemShow_info">\n' +
                 '               1.如无法上网、能搜到YNU信号但是连不上、网速慢、网络质量差、某一个网站上不去等...<br>\n' +
@@ -197,8 +197,8 @@ function judgeDisplay(item) {
                 '   <div class="ulForItemShow">\n' +
                 '       <div class="Div_ulForItemShow_title"><span class="ulForItemShow_title" onclick="closeItem(\'fankui_display\')">建议反馈</span></div>\n' +
                 '       <div class="Div_content">' +
-                '           <div class="Div_liForItemShow"><div class="liForItemShow"><a href="https://u2idi114qf.jiandaoyun.com/f/5f6852a62815b50006e32c4c">我要投诉</a></div>\n' +
-                '               <div class="liForItemShow"><a href="https://u2idi114qf.jiandaoyun.com/f/5f685559fd7e890006b26bb2">我想建议</a></div>' +
+                '           <div class="Div_liForItemShow liForItemShow_link"><div class="liForItemShow"><a href="https://u2idi114qf.jiandaoyun.com/f/5f6852a62815b50006e32c4c">我要投诉</a></div>\n' +
+                '               <div class="liForItemShow liForItemShow_link"><a href="https://u2idi114qf.jiandaoyun.com/f/5f685559fd7e890006b26bb2">我想建议</a></div>' +
                 '           </div>\n' +
                 '           <p class="ulForItemShow_info">\n' +
                 '               感谢您的支持！我们一直在不定期地升级校园网硬件设施，提升校园网使用体验，当您遇到故障或者需要投诉时，您可以先联系我们的客服及技术人员帮助您，以排除因您操作不当或设置问题带来的不佳体验。投诉、建议等入口您可以在本页的反馈服务中找到，感谢您一直以来的支持和理解，我们将仔细阅读您的投诉和建议，积极改进！' +
