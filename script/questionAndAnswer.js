@@ -88,7 +88,7 @@ function judgeDisplay(item) {
                 '               <div class="liForItemShow liForItemShow_tip" onclick="alert(tip_startjifei)">开始计费条件</div>\n' +
                 '               <div class="liForItemShow liForItemShow_tip" onclick="alert(tip_mianfei)">校内免费资源</div>' +
                 '           </div>\n' +
-                '           <img src="img/pic.svg" referrerpolicy="no-referrer" class="imgForShouce">' +
+                '           <div class="liForItemShowImgDiv"><img src="img/pic.svg" referrerpolicy="no-referrer" class="imgForShouce"></div>' +
                 '           <p class="ulForItemShow_info">\n' +
                 '               所有在职教师、在读同学的上网账号已在报道时开通，无需另行申请；其他人员需符合要求后提交开通申请。<br>\n' +
                 '           </p>\n' +

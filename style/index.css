@@ -544,7 +544,7 @@ a {
     /*justify-content: space-evenly;*/
 
     margin: 0 auto;
-    background-color: rgba(160, 208, 255, 0.40);
+    background-color: rgba(18, 150, 219, 0.1);
     border-radius: 15px;
 }
 
@@ -698,9 +698,9 @@ a {
 .liForItemShowImgDiv {
     width: 94%;
     padding: 10px 0;
-    margin: 15px auto;
+    margin: 10px auto;
     text-align: center;
-    background-color: rgba(160, 208, 255, 0.40);
+    background-color: rgba(18, 150, 219, 0.1);
     border-radius: 15px;
 }
 
@@ -716,8 +716,7 @@ a {
     color: black;
     font-size: medium;
 
-
-    background-color: rgba(160, 208, 255, 0.40);
+    background-color: rgba(18, 150, 219, 0.1);
 }
 
 
@@ -958,8 +957,11 @@ a {
 /*套餐资费图*/
 .imgForShouce {
     object-fit: contain;
-    width: 100%;
-    margin-top: 5px;
+    width: 98%;
+    margin: 0 auto;
+    padding: 2px;
+    box-sizing: border-box;
+    border-radius: 15px;
 }
 
 /*服务标题文字*/
