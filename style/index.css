@@ -25,6 +25,7 @@ body {
     min-width: 375px;
     max-width: 475px;
     margin: 0 auto;
+    padding-bottom: 60px;
     background-image: url("../img/back_yd.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -34,6 +35,37 @@ body {
     overflow-x: hidden;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
+}
+
+.icon-bar {
+    width: 100%;
+    background-color: #efefef;
+    overflow: auto;
+    position: fixed;
+    bottom: 0;
+}
+
+.icon-bar a {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 2px 0;
+    transition: all 0.3s ease;
+    color: black;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: rgba(18, 150, 205, 0.4);
+}
+
+.active {
+    background-color: #efefef;
+    color: rgb(18, 150, 205) !important;
+}
+
+.index_title {
+    font-size: small;
 }
 
 button {
@@ -1341,3 +1373,55 @@ a {
     }
 }
 
+/*选项-图片盒子*/
+.departmentIconDiv {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    /*background-color: rgba(18, 150, 219, 0.1);*/
+    border-radius: 15px;
+}
+
+/*图片样式*/
+.department_img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.companyTitle {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.departmentInfoDiv {
+    padding: 20px;
+}
+
+.departmentInfo {
+
+}
+
+.department_title {
+    font-size: medium;
+    padding: 10px 20px 0;
+}
+
+/*校园店信息店标题*/
+.departmentInfo_title {
+    font-size: medium;
+    padding: 10px 0;
+}
+
+/*校园店信息店介绍*/
+.departmentInfo_info {
+    font-size: small;
+    padding: 4px 10px;
+    line-height: 22px;
+}
+
+.departmentInfo_position {
+    font-size: medium;
+    padding: 10px 0;
+}
