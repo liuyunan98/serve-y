@@ -1,0 +1,26 @@
+{
+  "act1": {
+    "imgUrl": "../img_act/29.jpg",
+    "title": "速领！云大人专属29元校园卡",
+    "link":"https://mp.weixin.qq.com/s/bn7cMdKXeDyk0SBYPRy_9g",
+    "time": "2022-08-26"
+  },
+  "act2": {
+    "imgUrl": "../img_act/cloud.png",
+    "title": "和彩云焕新升级！你好，中国移动云盘！",
+    "link":"https://mp.weixin.qq.com/s/UTvpxsMwXSnFvpgFHR3zgA",
+    "time": "2022-06-17"
+  },
+  "act3": {
+    "imgUrl": "../img_act/flow.png",
+    "title": "暑假必备流量包，畅玩暑期不慌张！",
+    "link":"https://mp.weixin.qq.com/s/_E7lyZBrBg57PWNStvmXhg",
+    "time": "2022-06-17"
+  },
+  "act4": {
+    "imgUrl": "../img_act/31.jpg",
+    "title": "31元=160G大流量+300分钟通话+200G学习网盘",
+    "link":"https://mp.weixin.qq.com/s/deN1Mw6czuWvwzf_w4MNBw",
+    "time": "2022-06-17"
+  }
+}

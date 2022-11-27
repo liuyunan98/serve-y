@@ -47,7 +47,7 @@ body {
 
 .icon-bar a {
     float: left;
-    width: 50%;
+    width: 25%;
     text-align: center;
     padding: 2px 0;
     transition: all 0.3s ease;
@@ -1383,7 +1383,7 @@ a {
     border-radius: 15px;
 }
 
-/*图片样式*/
+/*相关页-单位图片样式*/
 .department_img {
     border-radius: 5px;
     width: 100%;
@@ -1424,4 +1424,49 @@ a {
 .departmentInfo_position {
     font-size: medium;
     padding: 10px 0;
+}
+
+.iframe {
+    width: 100%;
+    border: none;
+}
+
+
+/*------活动页-----------*/
+.actInfoDiv {
+    padding: 10px;
+}
+
+.act_img {
+    width: 100%
+}
+
+.actInfo {
+    padding: 6px 10px;
+}
+
+.actInfoTitle {
+    font-size: medium;
+    padding: 6px 0;
+}
+
+.actInfo_info {
+    font-size: small;
+    padding: 4px 10px;
+    line-height: 22px;
+}
+
+.actLink {
+    width: 50%;
+    margin: 10px auto;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    font-size: large;
+    text-align: center;
+    background-color: rgba(18, 150, 205, 0.9);
+    border-radius: 20px;
+}
+
+.actLink a {
+    color: white;
 }
