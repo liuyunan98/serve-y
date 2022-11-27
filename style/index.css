@@ -38,38 +38,41 @@ body {
 }
 
 
-.icon-bar {
+.tabBar {
     width: 100%;
-    padding: 8px 0;
+    padding: 4px 0;
+    box-sizing: border-box;
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 6px 0;
     justify-content: space-around;
+    text-align: center !important;
     background-color: #efefef;
     overflow: hidden;
     position: fixed;
     bottom: 0;
+    left: 0;
 }
 
-.icon-bar a {
+.tabBar a {
     text-align: center;
     transition: all 0.3s ease;
     color: black;
-    font-size: 22px;
+    font-size: 24px;
 }
 
-.icon-bar a:hover {
+.tabBar a:hover {
     background-color: rgba(18, 150, 205, 0.4);
 }
 
 .active {
     background-color: #efefef;
-    color: rgb(18, 150, 205) !important;
+    color: rgb(0, 123, 205) !important;
 }
 
-/*tabar标题*/
+/*tabBar标题*/
 .index_title {
-    font-size: small;
+    font-size: 10px;
 }
 
 
@@ -1397,46 +1400,96 @@ a {
 
 /*相关页-单位图片样式*/
 .department_img {
-    border-radius: 5px;
     width: 100%;
 }
 
 /*图片样式*/
 .company_img {
-    border-radius: 5px;
     width: 60%;
-}
-
-.departmentInfo {
-    padding: 0;
 }
 
 /*校园店名字*/
 .department_title {
     font-size: medium;
-    padding: 10px 20px 0;
+    padding: 30px 20px 0;
 }
 
 /*校园店信息店标题*/
 .departmentInfo_title {
     font-size: medium;
-    padding: 10px 0;
+    padding: 14px 0 6px 0;
 }
 
-/*校园店信息店介绍*/
+/*校园店信息介绍盒子*/
 .departmentInfoDiv {
     padding: 20px;
 }
 
+/*校园店信息*/
 .departmentInfo_info {
-    font-size: small;
+    font-size: medium;
     padding: 4px 10px;
     line-height: 22px;
 }
 
+/*---iframe---*/
 .iframe {
     width: 100%;
     border: none;
+}
+
+.topTipDiv {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    animation: topTip 1500ms ease-in;
+    position: absolute;
+    top: -100px;
+}
+
+.topTip {
+    text-align: center;
+    font-size: medium;
+    padding: 10px 0;
+    background-color: white;
+    border-radius: 15px;
+}
+
+@keyframes topTip {
+    0% {
+        top: 0px;
+    }
+    10% {
+        top: 5px
+    }
+    20% {
+        top: 10px
+    }
+    30% {
+        top: 9px
+    }
+    40% {
+        top: 8px
+    }
+    50% {
+        top: 6px
+    }
+    60% {
+        top: 4px
+    }
+    70% {
+        top: 2px
+    }
+    80% {
+        top: 0px
+    }
+    90% {
+        top: -10px;
+    }
+    100% {
+        top: -100px;
+        display: none
+    }
 }
 
 

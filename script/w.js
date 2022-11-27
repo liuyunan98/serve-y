@@ -197,7 +197,8 @@ function judgeDisplay(item) {
                 '   <div class="ulForItemShow">\n' +
                 '       <div class="Div_ulForItemShow_title"><span class="ulForItemShow_title" onclick="closeItem(\'fankui_display\')">建议反馈</span></div>\n' +
                 '       <div class="Div_content">' +
-                '           <div class="Div_liForItemShow liForItemShow_link"><div class="liForItemShow"><a href="https://u2idi114qf.jiandaoyun.com/f/5f6852a62815b50006e32c4c">我要投诉</a></div>\n' +
+                '           <div class="Div_liForItemShow">' +
+                '               <div class="liForItemShow liForItemShow_link"><a href="https://u2idi114qf.jiandaoyun.com/f/5f6852a62815b50006e32c4c">我要投诉</a></div>\n' +
                 '               <div class="liForItemShow liForItemShow_link"><a href="https://u2idi114qf.jiandaoyun.com/f/5f685559fd7e890006b26bb2">我想建议</a></div>' +
                 '           </div>\n' +
                 '           <p class="ulForItemShow_info">\n' +
@@ -276,7 +277,7 @@ function inf() {
     window.alert("老师们、同学们，暑假期间我们只在正常工作日时段处理线上工单！给您带来不便敬请谅解！")
 }
 
-let itemDiv = ['searchBar', 'swiper', 'zifei', 'question', 'tool', 'itc', 'footer'],
+let itemDiv = ['searchBar', 'swiper', 'zifei', 'question', 'tool', 'itc', 'footer','tabBar'],
     itemLength = itemDiv.length,
     i;
 let body = document.getElementById("body");
@@ -306,7 +307,7 @@ let questionDiv = document.getElementById("display_question");
 let answerDiv = document.getElementById("display_answer");
 let closeDiv = document.getElementById("question_close");
 
-// 点按图标后效果
+// Q&A 点按图标效果
 function showBorder(word) {
     let li = ['usual', 'type', 'article'];
     for (let index in li) {
@@ -420,16 +421,13 @@ function monitor() {
         type: "GET",
         url: "https://studsrv-itc.ynu.edu.cn/api/r",
         dataType: "json",
-
         success: function (result) {
             // console.log('success:', result)
             flag = 'success'
         },
-
         fail: function (err) {
             // console.log('err:', err)
         },
-
         complete: function (data) {
             if (data.status != '200') alert('服务端通信失败，请稍后再试！');
 
@@ -439,7 +437,6 @@ function monitor() {
             sw_statusText = data.statusText;
             let content = '';
             let serveDiv = document.getElementById('serve_display');
-
             content =
                 '<div id="sw_display">' +
                 '   <div class="ulForItemShow">\n' +
@@ -450,7 +447,6 @@ function monitor() {
             } else if (data.status != '200') {
                 content += '<div class="fail_bottom"></div>'
             }
-
             content +=
                 '        <div class="Div_content">' +
                 '           <div class="status">' + '数据获取标识：' + '<div class="' + flag + '">' + flag + '</div>' + ' | 接口状态：' + '<div class="' + sw_statusText + '">' + sw_statusText + '</div></div>' +
@@ -474,7 +470,6 @@ function monitor() {
                     '               <div class="li_info" style="font-size:medium">服务端繁忙，请稍等1分钟左右再试！</div>' +
                     '           </div>\n'
             }
-
             serveDiv.innerHTML = content;
         }
     });

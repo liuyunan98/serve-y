@@ -7,7 +7,7 @@ function setHeight() {
         || document.documentElement.clientHeight
         || document.body.clientHeight;
 
-    const H = h - 46 + 'px'
+    const H = h - 56 + 'px'
     document.getElementsByTagName('iframe')[0].style.height = H;
     console.log('iframe高度：', H)
 }
