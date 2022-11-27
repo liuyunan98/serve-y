@@ -40,20 +40,22 @@ body {
 
 .icon-bar {
     width: 100%;
+    padding: 8px 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 6px 0;
+    justify-content: space-around;
     background-color: #efefef;
-    overflow: auto;
+    overflow: hidden;
     position: fixed;
     bottom: 0;
 }
 
 .icon-bar a {
-    float: left;
-    width: 25%;
     text-align: center;
-    padding: 10px 0;
     transition: all 0.3s ease;
     color: black;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .icon-bar a:hover {
@@ -69,7 +71,6 @@ body {
 .index_title {
     font-size: small;
 }
-
 
 
 button {
@@ -1377,7 +1378,14 @@ a {
     }
 }
 
-/*选项-图片盒子*/
+/*移动校园网*/
+.companyTitle {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+/*相关页-图片盒子*/
 .departmentIconDiv {
     width: 100%;
     padding: 0;
@@ -1393,20 +1401,11 @@ a {
     width: 100%;
 }
 
-.companyTitle {
-    text-align: center;
-    font-size: large;
-    font-weight: bold;
-}
-
-.departmentInfoDiv {
-    padding: 20px;
-}
-
 .departmentInfo {
-
+    padding: 0;
 }
 
+/*校园店名字*/
 .department_title {
     font-size: medium;
     padding: 10px 20px 0;
@@ -1419,15 +1418,14 @@ a {
 }
 
 /*校园店信息店介绍*/
+.departmentInfoDiv {
+    padding: 20px;
+}
+
 .departmentInfo_info {
     font-size: small;
     padding: 4px 10px;
     line-height: 22px;
-}
-
-.departmentInfo_position {
-    font-size: medium;
-    padding: 10px 0;
 }
 
 .iframe {
