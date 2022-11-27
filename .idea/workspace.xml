@@ -29,10 +29,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img_act" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\serve-y\serve-y\img" />
       <recent name="D:\serve-y\serve-y\img_act" />
       <recent name="D:\serve-y\serve-y\img_d" />
     </key>
@@ -54,6 +55,7 @@
       <workItem from="1669472830428" duration="5467000" />
       <workItem from="1669527823276" duration="7922000" />
       <workItem from="1669536198811" duration="2964000" />
+      <workItem from="1669540123752" duration="317000" />
     </task>
     <servers />
   </component>

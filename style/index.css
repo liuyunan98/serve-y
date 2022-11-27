@@ -1401,6 +1401,12 @@ a {
     width: 100%;
 }
 
+/*图片样式*/
+.company_img {
+    border-radius: 5px;
+    width: 60%;
+}
+
 .departmentInfo {
     padding: 0;
 }
